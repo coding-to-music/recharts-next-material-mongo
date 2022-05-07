@@ -1,3 +1,49 @@
+# recharts-next-material-mongo
+
+# 🚀 Javascript full-stack 🚀
+
+https://github.com/coding-to-music/recharts-next-material-mongo
+
+https://recharts-next-material-mongo.vercel.app
+
+by Katerina Lupacheva / Katsiaryna Lupachova https://github.com/KaterinaLupacheva
+
+https://my-projects-dashboard.vercel.app
+
+https://github.com/KaterinaLupacheva/my-projects-dashboard
+
+## Environment Values
+
+```java
+  process.env.TWITTER_BEARER_TOKEN &&
+
+  process.env.DEVTO_API_KEY &&
+    requestHeaders.set('api-key', process.env.DEVTO_API_KEY);
+
+  process.env.GITHUB_PERSONAL_TOKEN &&
+    requestHeaders.set(
+      'Authorization',
+      `token ${process.env.GITHUB_PERSONAL_TOKEN}`
+
+      if (authorization === `Bearer ${process.env.APP_API_KEY}`) {
+
+const { MONGODB_URI, MONGODB_DB } = process.env;
+
+```
+
+## GitHub
+
+```java
+git init
+git add .
+git remote remove origin
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:coding-to-music/recharts-next-material-mongo.git
+git push -u origin main
+vercel --prod --confirm
+```
+
 # Personal Dev Dashboard
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnext.js%2Ftree%2Fcanary%2Fexamples%2Fhello-world)
