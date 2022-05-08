@@ -3,8 +3,8 @@ import { MongoClient } from 'mongodb';
 
 const { MONGODB_URI, MONGODB_DB } = process.env;
 
-console.log(MONGODB_URI);
-console.log(MONGODB_DB);
+// console.log(MONGODB_URI);
+// console.log(MONGODB_DB);
 
 if (!MONGODB_URI) {
   throw new Error(

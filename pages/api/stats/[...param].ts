@@ -2,8 +2,8 @@ import { NextApiRequest, NextApiResponse } from 'next';
 
 import { connectToDatabase } from '../../../utils/mongodb';
 
-console.log(process.env.MONGODB_URI);
-console.log(process.env.MONGODB_DB);
+// console.log(process.env.MONGODB_URI);
+// console.log(process.env.MONGODB_DB);
 
 export default async (
   req: NextApiRequest,

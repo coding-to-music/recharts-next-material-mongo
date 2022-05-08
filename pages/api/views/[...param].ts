@@ -22,6 +22,9 @@ export default async (
   }
 
   const { db } = await connectToDatabase();
+
+  console.log('HERE  const { db } = await connectToDatabase(); ');
+
   const viewsCollection = await db.collection('view_counts');
 
   // Check if the doc exists.
