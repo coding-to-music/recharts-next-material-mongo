@@ -10,6 +10,10 @@ by Katerina Lupacheva / Katsiaryna Lupachova https://github.com/KaterinaLupachev
 
 https://my-projects-dashboard.vercel.app
 
+https://dev.to/ramonak/next-js-material-ui-mongodb-personal-dashboard-3i82
+
+https://ramonak.io/
+
 https://github.com/KaterinaLupacheva/my-projects-dashboard
 
 ## Environment Values
