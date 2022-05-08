@@ -24,7 +24,14 @@ https://github.com/KaterinaLupacheva/my-projects-dashboard
   process.env.APP_API_KEY
 
 const { MONGODB_URI, MONGODB_DB } = process.env;
+```
 
+## For daily cron job GitHub Action
+
+```java
+          curl --request POST \
+          --url 'https://recharts-next-material-mongo.vercel.app/api/stats' \
+          --header 'Authorization: Bearer ${{ secrets.APP_API_KEY }}'
 ```
 
 ## GitHub

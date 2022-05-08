@@ -9,5 +9,5 @@ jobs:
       - name: Call our API route
         run: |
           curl --request POST \
-          --url 'https://my-projects-dashboard.vercel.app/api/stats' \
+          --url 'https://recharts-next-material-mongo.vercel.app/api/stats' \
           --header 'Authorization: Bearer ${{ secrets.APP_API_KEY }}'
