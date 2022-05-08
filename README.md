@@ -18,14 +18,10 @@ https://github.com/KaterinaLupacheva/my-projects-dashboard
   process.env.TWITTER_BEARER_TOKEN &&
 
   process.env.DEVTO_API_KEY &&
-    requestHeaders.set('api-key', process.env.DEVTO_API_KEY);
 
   process.env.GITHUB_PERSONAL_TOKEN &&
-    requestHeaders.set(
-      'Authorization',
-      `token ${process.env.GITHUB_PERSONAL_TOKEN}`
 
-      if (authorization === `Bearer ${process.env.APP_API_KEY}`) {
+  process.env.APP_API_KEY
 
 const { MONGODB_URI, MONGODB_DB } = process.env;
 
